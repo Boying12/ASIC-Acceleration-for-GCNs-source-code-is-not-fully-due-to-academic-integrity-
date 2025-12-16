@@ -1,0 +1,753 @@
+Error: Current design is not defined. (UID-4)
+0
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Wed Nov 19 07:06:01 2025
+****************************************
+
+
+Library(s) Used:
+
+    No libraries used.
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                    7.35e-06    0.000    0.000 7.35e-06 100.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Wed Nov 19 17:20:44 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.397    1.145 1.10e+06    1.542 100.0
+  u_transform_block (Transformation_Block_FEATURE_ROWS6_FEATURE_COLS96_WEIGHT_ROWS96_WEIGHT_COLS3_FEATURE_WIDTH5_WEIGHT_WIDTH5_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3)
+                                          0.387    0.865 9.46e+05    1.253  81.2
+    u_vecmul (Vector_Multiplier_FEATURE_COLS96_FEATURE_WIDTH5_WEIGHT_WIDTH5_DOT_PROD_WIDTH16)
+                                          0.344    0.169 6.15e+05    0.513  33.3
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Tue Nov 25 03:54:39 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                     245.389    1.453 1.30e+06  246.843 100.0
+  matrix_fm_wm_mem (Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5)
+                                       1.02e-02    0.261 1.24e+05    0.271   0.1
+  scratch_pad (Scratch_Pad_WEIGHT_ROWS96_WEIGHT_WIDTH5)
+                                       2.66e-02    0.426 1.93e+05    0.453   0.2
+  transformation_fsm (Transformation_FSM_FEATURE_ROWS6_WEIGHT_COLS3_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3)
+                                       1.88e-03 4.72e-03 3.71e+03 6.60e-03   0.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Tue Nov 25 06:12:05 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                     245.384    1.467 1.34e+06  246.853 100.0
+  matrix_fm_wm_mem (Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5)
+                                       1.00e-02    0.260 1.24e+05    0.271   0.1
+  scratch_pad (Scratch_Pad_WEIGHT_ROWS96_WEIGHT_WIDTH5)
+                                       2.63e-02    0.428 1.93e+05    0.455   0.2
+  transformation_fsm (Transformation_FSM_FEATURE_ROWS6_WEIGHT_COLS3_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3)
+                                       1.87e-03 4.68e-03 3.71e+03 6.56e-03   0.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Tue Nov 25 06:47:54 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                     245.384    1.467 1.34e+06  246.853 100.0
+  matrix_fm_wm_mem (Matrix_FM_WM_Memory_FEATURE_ROWS6_WEIGHT_COLS3_DOT_PROD_WIDTH16_ADDRESS_WIDTH13_WEIGHT_WIDTH5_FEATURE_WIDTH5)
+                                       1.00e-02    0.260 1.24e+05    0.271   0.1
+  scratch_pad (Scratch_Pad_WEIGHT_ROWS96_WEIGHT_WIDTH5)
+                                       2.63e-02    0.428 1.93e+05    0.455   0.2
+  transformation_fsm (Transformation_FSM_FEATURE_ROWS6_WEIGHT_COLS3_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3)
+                                       1.87e-03 4.68e-03 3.71e+03 6.56e-03   0.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Tue Nov 25 07:29:47 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                     245.376    1.149 1.18e+06  246.526 100.0
+  scratch_pad (Scratch_Pad_WEIGHT_ROWS96_WEIGHT_WIDTH5)
+                                       2.59e-02    0.426 1.93e+05    0.452   0.2
+  transformation_fsm (Transformation_FSM_FEATURE_ROWS6_WEIGHT_COLS3_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3)
+                                       1.80e-03 4.54e-03 3.99e+03 6.35e-03   0.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+Warning: Design has unannotated black box outputs. (PWR-428)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Tue Nov 25 07:48:55 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                     245.376    1.149 1.18e+06  246.526 100.0
+  scratch_pad (Scratch_Pad_WEIGHT_ROWS96_WEIGHT_WIDTH5)
+                                       2.59e-02    0.426 1.93e+05    0.452   0.2
+  transformation_fsm (Transformation_FSM_FEATURE_ROWS6_WEIGHT_COLS3_COUNTER_WEIGHT_WIDTH2_COUNTER_FEATURE_WIDTH3)
+                                       1.80e-03 4.54e-03 3.99e+03 6.35e-03   0.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Tue Nov 25 07:53:24 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.188    1.337 1.26e+06    1.526 100.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Tue Nov 25 20:00:21 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.188    1.337 1.26e+06    1.526 100.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Wed Nov 26 04:02:41 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.185    1.336 1.26e+06    1.522 100.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Wed Nov 26 05:08:18 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.185    1.336 1.26e+06    1.522 100.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Wed Nov 26 05:17:23 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.181    1.333 1.26e+06    1.515 100.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Wed Nov 26 21:19:12 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.181    1.333 1.26e+06    1.515 100.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Wed Dec  3 17:44:16 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.181    1.333 1.26e+06    1.515 100.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Wed Dec  3 21:56:05 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.195    1.339 1.26e+06    1.535 100.0
+1
+Information: Propagating switching activity (medium effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort medium
+Design : GCN
+Version: V-2023.12-SP5
+Date   : Wed Dec  3 22:23:59 2025
+****************************************
+
+
+Library(s) Used:
+
+    asap7sc7p5t_22b_AO_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_AO_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SIMPLE_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SIMPLE_RVT_TT_170906.db)
+    asap7sc7p5t_22b_INVBUF_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_INVBUF_RVT_TT_170906.db)
+    asap7sc7p5t_22b_OA_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_OA_RVT_TT_170906.db)
+    asap7sc7p5t_22b_SEQ_RVT_TT_170906 (File: /apps/share64/rocky8/asap7/asap7-20250127/asap7sc7p5t_28/db/asap7sc7p5t_22b_SEQ_RVT_TT_170906.db)
+
+
+Operating Conditions: PVT_0P7V_25C   Library: asap7sc7p5t_22b_AO_RVT_TT_170906
+Wire Load Model Mode: segmented
+
+Design        Wire Load Model            Library
+------------------------------------------------
+
+
+Global Operating Voltage = 0.7  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ps
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+GCN                                       0.168    1.328 1.26e+06    1.497 100.0
+1
