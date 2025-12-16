@@ -1,0 +1,2 @@
+# ASIC-Acceleration-for-GCNs-source-code-is-not-fully-due-to-academic-integrity-
+The design includes feature aggregation and transformation using a sparse COO adjacency format to reduce computation cost. The GCN module is implemented in Verilog, synthesized with Design Compiler, and placed and routed using Innovus. Post-APR simulation and power analysis are performed while meeting a latency constraint under 100 ns.
